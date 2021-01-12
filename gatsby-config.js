@@ -1,16 +1,16 @@
-const projectPathPrefix =
-  process.env.CI_PROJECT_NAME || "gatsby"
+const projectPathPrefix = "gatsby"
 
 module.exports = {
   // Use CI_PROJECT_NAME variable as pathPrefix, edit/comment if you want to use a custom domain.
   pathPrefix: `/${projectPathPrefix}`,
   siteMetadata: {
-    title: `InformaEtica`,
-    description: `InformaEtica | Informatica, Consapevole, Etica e Solidale`,
-    author: `@gatsbyjs`,
+    title: `Orizzonte Marino`,
+    description: `Orizzonte Marino | Bed & Breakfast`,
+    author: `Franks`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -31,8 +31,5 @@ module.exports = {
         display: `minimal-ui`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
