@@ -2,7 +2,6 @@ import React from "react"
 import styled from "styled-components"
 import Background from "./headerBg"
 import { Link } from "gatsby"
-import propTypes from "prop-types"
 
 const Hero = () => {
   return (
@@ -11,7 +10,7 @@ const Hero = () => {
         <article>
           <h3>orizzonte marino</h3>
           <h1>bed & breakfast</h1>
-          <Link to="/bedroom">guarda le camere</Link>
+          <Link to="/gallery">guarda le camere</Link>
         </article>
       </Background>
     </Wrapper>
@@ -124,7 +123,5 @@ const Wrapper = styled.section`
     }
   }
 `
-
-Hero.propTypes = {}
 
 export default Hero
