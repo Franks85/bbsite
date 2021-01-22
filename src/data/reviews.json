@@ -1,0 +1,17 @@
+[
+  {
+    "fullName": "Paolo Rossi",
+    "quote": "Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.",
+    "src": "../images/home/reviews/person-1.png"
+  },
+  {
+    "fullName": "Giulia Bianchi",
+    "quote": "Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.",
+    "src": "../images/home/reviews/person-2.png"
+  },
+  {
+    "fullName": "Giuseppe verdi",
+    "quote": "Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo.",
+    "src": "../images/home/reviews/person-3.png"
+  }
+]

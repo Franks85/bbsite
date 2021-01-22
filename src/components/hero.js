@@ -10,7 +10,7 @@ const Hero = () => {
         <article>
           <h3>orizzonte marino</h3>
           <h1>bed & breakfast</h1>
-          <Link to="/gallery">guarda le camere</Link>
+          <Link to="/gallery">foto gallery</Link>
         </article>
       </Background>
     </Wrapper>
@@ -50,7 +50,6 @@ const Wrapper = styled.section`
       color: var(--clr-black);
     }
     @media (min-width: 800px) {
-      /* padding: 0 1rem; */
       a {
         font-size: 1.25rem;
         padding: 0.5rem 1.25rem;
@@ -58,68 +57,6 @@ const Wrapper = styled.section`
       h1 {
         letter-spacing: 5px;
       }
-    }
-  }
-  .next-btn,
-  .prev-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 2.5rem;
-    background: transparent;
-    color: var(--clr-white);
-    border: transparent;
-    cursor: pointer;
-    transition: var(--transition);
-    @media (min-width: 800px) {
-      & {
-        font-size: 4.5rem;
-      }
-    }
-  }
-  .next-btn:hover,
-  .prev-btn:hover {
-    color: var(--clr-primary-5);
-  }
-  .prev-btn {
-    left: 0;
-  }
-  .next-btn {
-    right: 0;
-  }
-  @media (min-width: 1000px) {
-    .prev-btn {
-      left: 3rem;
-    }
-    .next-btn {
-      right: 3rem;
-    }
-  }
-  .dots {
-    position: absolute;
-    bottom: 5%;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: center;
-    span {
-      display: block;
-      cursor: pointer;
-      height: 0.75rem;
-      width: 0.75rem;
-      border-radius: 50%;
-      background: var(--clr-white);
-      margin: 0 1rem;
-      border: 2px solid var(--clr-white);
-      @media (min-width: 800px) {
-        & {
-          height: 1rem;
-          width: 1rem;
-        }
-      }
-    }
-    span.active {
-      background-color: transparent;
     }
   }
 `

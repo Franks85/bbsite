@@ -3,7 +3,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Hero, About, Rooms } from "../components"
+import { Hero, About, Rooms, Reviews } from "../components"
 
 const IndexPage = () => (
   <Layout>
@@ -11,6 +11,7 @@ const IndexPage = () => (
     <Hero />
     <About />
     <Rooms title="i locali" />
+    <Reviews />
   </Layout>
 )
 
